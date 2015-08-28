@@ -11,4 +11,23 @@
 <%= yield %>
 
 </body>
+
+<header>
+<div class="col-xs-3">
+	<%= link_to root_path, :class => 'logo' do %>
+	<div class="circle">
+	Logo
+	<% end %>
+
+</div>
+
+<div class="col-xs-4">
+	Nice Time
+</div>
+
+<div class="col-xs-5 links">
+	<%= link_to 'Contribute', new_shoe_path %>
+
+</header>
+
 </html>

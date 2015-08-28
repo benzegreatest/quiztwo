@@ -1,0 +1,6 @@
+<h1>Enter Your Quote Details</h1>
+<%= simple_form_for :shoes do |f| %>
+  <%= f.input :name %>
+  <%= f.input :brand %>
+  <%= f.submit 'Create', :class => 'btn btn-danger', :method => :POST %>
+<% end %>
